@@ -1,8 +1,60 @@
 site_name: Geophysics DIY
+site_author: Wye
+site_description: >-
+  Geophysics DIY is a place to share my experience in geophysics and programming.
+
+repo_name: geophy-diy
+repo_url: https://github.com/wanghaoyucn/geophy-diy/
 
 theme:
   name: material
   language: zh
+  static_templates:
+    - 404.html
+  
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Roboto Slab
+    code: Fira Code
+  icon:
+    repo: fontawesome/brands/github
+  
+  # custom_dir: overrides
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
 
 markdown_extensions:
 
