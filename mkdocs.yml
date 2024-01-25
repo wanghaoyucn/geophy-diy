@@ -5,6 +5,7 @@ site_description: >-
 
 repo_name: geophy-diy
 repo_url: https://github.com/wanghaoyucn/geophy-diy/
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -68,7 +69,7 @@ plugins:
       repository: wanghaoyucn/geophy-diy
       branch: main
 
-copyright: Copyright &copy; 2024 - Present Wye_卫何
+copyright: Copyright &copy; 2024 - Present  <a href="https://github.com/wanghaoyucn" target="_blank" rel="noopener noreferrer">Wye_卫何</a>
 extra:
   social:
     - icon: fontawesome/solid/envelope

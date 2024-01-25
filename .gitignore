@@ -8,3 +8,4 @@ public/
 _multiconfig.yml
 
 test*
+.cache/plugin/git-committers/page-authors.json
