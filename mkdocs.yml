@@ -13,11 +13,15 @@ theme:
     - 404.html
   favicon: ./images/favicon.ico
   apple-touch-icon-precomposed: images/apple-touch-icon.png
-  
+
   features:
     - header.autohide
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.top
+    # - navigation.indexes
+    - toc.follow
     - search.highlight
     - search.share
     - search.suggest
@@ -47,9 +51,10 @@ theme:
     code: Fira Code
   icon:
     logo: bootstrap/globe-asia-australia
-    repo: fontawesome/brands/github   
-  
+    repo: fontawesome/brands/github
+
   custom_dir: overrides
+
 plugins:
   - search:
       lang:
@@ -59,6 +64,14 @@ plugins:
   - minify:
       minify_html: true
   - mkdocs-jupyter
+
+copyright: Copyright &copy; 2024 - Present Wye_卫何
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:<ridiculawang@gmail.com>
+    - icon: fontawesome/brands/github
+      link: https://github.com/wanghaoyucn/geophy-diy/
 
 markdown_extensions:
 
