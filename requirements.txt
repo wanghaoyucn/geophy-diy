@@ -5,3 +5,4 @@ jinja2
 mkdocs-static-i18n
 markdown-gfm-admonition
 mkdocs-jupyter
+mkdocs-git-committers-plugin-2

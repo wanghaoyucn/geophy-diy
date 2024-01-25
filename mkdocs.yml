@@ -64,6 +64,9 @@ plugins:
   - minify:
       minify_html: true
   - mkdocs-jupyter
+  - git-committers:
+      repository: wanghaoyucn/geophy-diy
+      branch: main
 
 copyright: Copyright &copy; 2024 - Present Wye_卫何
 extra:
