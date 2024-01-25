@@ -11,8 +11,8 @@ theme:
   language: zh
   static_templates:
     - 404.html
-  logo:
-    icon: bootstrap/activity
+  favicon: ./images/favicon.ico
+  apple-touch-icon-precomposed: images/apple-touch-icon.png
   
   features:
     - header.autohide
@@ -46,9 +46,10 @@ theme:
     text: Roboto Slab
     code: Fira Code
   icon:
-    repo: fontawesome/brands/github
+    logo: bootstrap/globe-asia-australia
+    repo: fontawesome/brands/github   
   
-  # custom_dir: overrides
+  custom_dir: overrides
 plugins:
   - search:
       lang:
