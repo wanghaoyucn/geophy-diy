@@ -20,7 +20,7 @@ theme:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.top
-    # - navigation.indexes
+    - navigation.indexes
     - toc.follow
     - search.highlight
     - search.share
@@ -110,3 +110,10 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - markdown_gfm_admonition
+
+nav:
+  - 写在前面: "index.md"
+  - 测试:
+      - "测试/index.md"
+      - 第一节: "测试/第一节.md"
+  - 后记: "后记.md"
