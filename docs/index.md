@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# 写在前面
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -21,8 +21,10 @@ def main():
 
 
 ## Admonitions
-!!! note
-    This is a note
+!!! quote "[aaa](./index.md)"
+    ```python
+    import os
+    ```
 
 > [!NOTE]
 > This is a note
