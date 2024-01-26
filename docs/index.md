@@ -1,4 +1,4 @@
-# 写在前面
+# **写在前面**
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -28,3 +28,9 @@ def main():
 
 > [!NOTE]
 > This is a note
+
+## Math
+
+$$
+\delta S = 0
+$$
