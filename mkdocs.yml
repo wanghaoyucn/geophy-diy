@@ -22,6 +22,7 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.indexes
+    - navigation.footer
     - toc.follow
     - search.highlight
     - search.share
@@ -68,6 +69,7 @@ plugins:
   - git-committers:
       repository: wanghaoyucn/geophy-diy
       branch: main
+      enabled: !ENV [CI, false]
 
 copyright: Copyright &copy; 2024 - Present  <a href="https://github.com/wanghaoyucn" target="_blank" rel="noopener noreferrer">Wye_卫何</a>
 extra:
