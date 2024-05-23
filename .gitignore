@@ -9,3 +9,4 @@ _multiconfig.yml
 
 test*
 .cache/plugin/git-committers/page-authors.json
+site/
